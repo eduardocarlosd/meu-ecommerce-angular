@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    padding: 80px;
 }
 
 .product {
@@ -17,18 +17,24 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px;
-    width: calc(33.333% - 30px);
+    width: calc(33.333% - 270px);
     transition: transform 0.3s ease;
     overflow: hidden;
     text-align: center;
+    
+    
 
     &:hover {
         transform: translateY(-10px);
     }
 
     img {
-        //width: 100%;
-        border-bottom: 1px solid #ddd;
+        max-width: 50%;
+        //width: 35%;
+        height:  auto;
+        display: inline-block;
+
+        //border-bottom: 1px solid #ddd;
     }
 
     h2 {
