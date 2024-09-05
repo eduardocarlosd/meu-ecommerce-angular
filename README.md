@@ -1,2 +1,2 @@
-# meu-Ecomerce-angular
+# meu-ecomerce-angular
 Meu Primeiro E-commerce
